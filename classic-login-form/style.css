@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    overflow:hidden;
+    background-color:#3f398d;
+}
+
+
+.login-form{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.login-card{
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    border-radius:5.5px;
+    padding:25px 45px;
+    width:420px;
+    height:auto;
+    text-align:center;
+}
+.login-card .card-title{
+    color:#444444;
+    font-size:20px;
+    margin-bottom:30px;
+    letter-spacing:2px;
+}
+
+.login-card .inp-box{
+    width:100%;
+    margin-bottom:15px;   
+}
+.login-card .inp-box:last-child{
+    margin-bottom:0px;
+}
+.login-card .inp-box input{
+    width:100%;
+    background-color:#E5E9ED;
+    padding:20px 20px;
+    border-radius:2.2px;
+    border:1px solid #D0D0D0;
+    outline:0;
+}
+.login-card .inp-box input[type='checkbox']{
+    display:inline-block;
+    width:auto;
+    margin-right:8px;
+}
+
+.btn{
+    display:block;
+}
+
+.btn-primary{
+    background-color:#3f398d;
+    width:100%;
+    padding:20px 20px;
+    color:#fff;
+    font-weight:600;
+    text-decoration: none;
+    font-size:17px;
+    letter-spacing:2px;
+    transition:all ease .5s;
+}
+.btn-primary:hover{
+    background-color:#746BDE;
+    transition:all ease .5s;
+}
+
+.btn-secondary{
+    color:#787E8C;
+}
+
+@media screen and (max-width:768px){
+    .login-card{
+        width:90%;
+        padding:20px 20px;
+    }
+}
